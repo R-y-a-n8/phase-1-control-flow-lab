@@ -1,11 +1,25 @@
 function scuberGreetingForFeet(){
-  // Write your code here!
+  if (feet < 400) {
+    greeting = "its on me";
+  }
 }
 
 function ternaryCheckCity(){
-  // Write your code here!
+  return feet ? `0` : `400`;
+  console.log (feet(true));
+  //Expected output: "0"
+
+  console.log(feet(true));
+  //Expected output: "400"
 }
 
 function switchOnCharmFromTip(){
-  // Write your code here!
+  switch(expression) {
+    case 0:
+      //true
+      break;
+      case 400:
+        //true
+        break;
+  }
 }
